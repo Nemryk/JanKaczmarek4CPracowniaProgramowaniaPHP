@@ -19,5 +19,6 @@ $test2=0;
 $x = 1+0;
 $y=1.0;
 echo PHP_INT_SIZE,'<hr>';
-    
+echo @gettype($y);
+echo is_null($x);
 ?>
